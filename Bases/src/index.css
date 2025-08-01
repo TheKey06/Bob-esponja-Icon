@@ -1,0 +1,92 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height:100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Cuerpo{
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 300px;
+  border: 5px solid black;
+}
+
+.Cabeza{
+  height: 280px;
+  width: 100%;
+  background-color: #f5ee33;
+}
+
+.ropa{
+  position: relative;
+  overflow: hidden;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.Camisa{
+  border-top: 5px solid black;
+  height: 60px;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#CamisaCorbata{
+  top: -45px;
+transform: translateY(-50%) rotate(-45%);
+}
+
+.Pantalon{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  flex:1;
+  background-color: #6a3d13;
+  border-top: 5px solid black;
+}
+
+.Correa{
+height: 15px;
+width: 40px;
+background-color: black;
+}
+
+.Corbata{
+  position: absolute;
+  border: solid black 5px;
+  width: 70px;
+  height: 70px;
+  background-color: red;
+  transform: rotate(-45deg);
+}
+.doble{
+  position: relative;
+  background-color: white;
+  border: 5px solid black;
+  width: 60px;
+  height: 60px;
+ 
+}
+
+#DobleIzquierdo{
+  transform: rotate(-60deg) translateX(90%) translateY(20%);
+  
+}
+#DobleDerecho{
+  transform: rotate(-320deg) translateX(-70%) translateY(-10%);
+  
+}
