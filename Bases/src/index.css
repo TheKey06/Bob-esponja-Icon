@@ -23,6 +23,10 @@ body{
   height: 280px;
   width: 100%;
   background-color: #f5ee33;
+  border-bottom: solid black 5px;
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .ropa{
@@ -34,13 +38,14 @@ body{
 }
 
 .Camisa{
-  border-top: 5px solid black;
+
   height: 60px;
   width: 100%;
   background-color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
+  
 
 }
 
@@ -83,10 +88,144 @@ background-color: black;
 }
 
 #DobleIzquierdo{
-  transform: rotate(-60deg) translateX(90%) translateY(20%);
+  right: -15px;
+  bottom: 50px;
+  transform: rotate(-120deg) translateX(-20%) translateY(20%);
   
 }
 #DobleDerecho{
-  transform: rotate(-320deg) translateX(-70%) translateY(-10%);
+  /* transform: rotate(-320deg) translateX(-70%) translateY(-10%); */
   
+  right: 40px;
+  bottom: 57px;
+  transform: rotate(-150deg) translateX(-20%) translateY(-15%);
+
+}
+
+.pecas{
+  background-color: #dc0;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  position: absolute;
+}
+
+#izquierda_superior{
+  left: 0px;
+}
+
+#derecha_superior{
+  height: 15px;
+  width: 15px;
+  right: 25px;
+  top: 50px;
+}
+
+#abajo_izquierda{
+  border-radius: 30px;
+  width: 60px;
+  height: 60px;
+  bottom: 10px;
+  left: 20px;
+}
+
+#derecha_abajo_media{
+  height: 45px;
+  width: 45px;
+  right: -25px;
+  bottom: 40px;
+}
+
+#bottom_right{
+  right: 55px;
+  bottom: 4px;
+
+}
+
+.ojos{
+  height: 110px;
+  width: 110px;
+  background-color: white;
+  border: solid black 5px;
+  border-radius: 55px;
+  top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#ojo_derecho{
+  position: absolute;
+  right: 45px;
+}
+#ojo_izquierdo{
+  position: absolute;
+  left: 45px;
+}
+
+.iris{
+  width: 60px;
+  height: 60px;
+  background-color: #0af;
+  border-radius: 30px;
+  border:solid black 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pupila{
+  background-color: black;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+.nariz{
+  width: 30px;
+  height: 50px;
+  border-top: solid black 5px;
+  border-right: solid black 5px;
+  border-left: solid black 5px;
+  border-radius: 15px;
+  position: absolute;
+  top: 100px;
+  background-color: #f5ee33;
+}
+
+.boca{
+  width: 180px;
+  height: 50px;
+  background-color: #f5ee33;
+  border-bottom: solid black 5px;
+  position: relative;
+  top: 160px;
+  border-radius: 250%;
+  display: flex;
+  justify-content: center;
+}
+
+.dientes{
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  border: solid black 5px;
+  bottom: -30px;
+  position: absolute;
+}
+
+#diente_izquierdo{
+  left: 58px;
+}
+
+#diente_derecho{
+  right: 58px;
+}
+
+.cachetes{
+  background-color: #f5ee33;
+  width: 40px;
+  height: 40px;
+  border: solid black 4px;
+
 }
