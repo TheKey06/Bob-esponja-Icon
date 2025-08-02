@@ -27,6 +27,7 @@ body{
   position: relative;
   display: flex;
   justify-content: center;
+  overflow: hidden;
 }
 
 .ropa{
@@ -94,7 +95,7 @@ background-color: black;
   
 }
 #DobleDerecho{
-  /* transform: rotate(-320deg) translateX(-70%) translateY(-10%); */
+
   
   right: 40px;
   bottom: 57px;
@@ -198,11 +199,12 @@ background-color: black;
   height: 50px;
   background-color: #f5ee33;
   border-bottom: solid black 5px;
-  position: relative;
+  position: absolute;
   top: 160px;
   border-radius: 250%;
   display: flex;
   justify-content: center;
+  /* z-index: 10px; */
 }
 
 .dientes{
@@ -224,8 +226,66 @@ background-color: black;
 
 .cachetes{
   background-color: #f5ee33;
-  width: 40px;
-  height: 40px;
-  border: solid black 4px;
+  width: 45px;
+  height: 30px;
+  border-top: solid black 5px;
+  border-right: solid black 5px;
+  border-left:solid black 5px ;
+  border-color: rgb(255, 120, 0);
+  border-radius: 20px;
+}
 
+#cachete_derecho{
+  top: 2px;
+  right: -20px;
+  position:absolute;
+}
+
+#cachete_izquierdo{
+  top: 2px;
+  left: -20px;
+  position: absolute;
+}
+
+.pestañas{
+  position: absolute;
+  width: 5px;
+  height: 20px;
+  background-color: black;
+  top:25px;
+}
+
+/* pestañas del ojo derecho del personaje (mi lado izquierdo) */
+#derecha{
+  transform: rotate(-45deg);
+  left: 60px; /*quiere decir que esta alejada del borde izquierdo 60px*/
+  top: 33px;
+}
+
+#derecha_media{
+  left: 90px;
+}
+
+#derecha_izquierda{
+  transform: rotate(40deg);
+  left: 120px;
+  top: 33px;
+}
+
+/* pestañas del lado izquierdo (mi lado derecho) */
+
+#izquierda{
+  transform: rotate(-45deg);
+  right: 120px; /*quiere decir que esta alejada del borde izquierdo 60px*/
+  top: 33px;
+}
+
+#izquierda_media{
+  right: 95px;
+}
+
+#izquierda_derecha{
+  transform: rotate(40deg);
+  right: 60px;
+  top: 33px;
 }

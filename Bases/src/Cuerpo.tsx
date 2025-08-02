@@ -2,6 +2,12 @@ export const Cuerpo = () => {
 
 return (<div className="Cuerpo">
     <div className="Cabeza">
+        <div className="pestañas"id="derecha" ></div>
+        <div className="pestañas" id="derecha_media"></div>
+        <div className="pestañas" id="derecha_izquierda"></div>
+        <div className="pestañas" id="izquierda"></div>
+        <div className="pestañas" id="izquierda_media"></div>
+        <div className="pestañas" id="izquierda_derecha"></div>
         <div className="ojos" id="ojo_izquierdo">
             <div className="iris">
                 <div className="pupila"></div>
@@ -15,8 +21,8 @@ return (<div className="Cuerpo">
         </div>
         <div className="nariz"></div>
         <div className="boca">
-            <div className="cachetes"></div>
-            <div className="cachetes"></div>
+            <div className="cachetes" id="cachete_izquierdo"></div>
+            <div className="cachetes" id="cachete_derecho"></div>
             <div className="dientes" id="diente_derecho"></div>
             <div className="dientes" id="diente_izquierdo"></div>
         </div>
